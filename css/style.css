@@ -25,11 +25,9 @@ body {
 }
 
 .offer {
-  position: relative;
   border-radius: 15px;
   z-index: 99999;
   font-family: "Noto Serif", serif;
-  height: 208px;
 }
 
 .overlay {
