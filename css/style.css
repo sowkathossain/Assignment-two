@@ -23,3 +23,30 @@ body {
 .dot {
   font-size: 0.5rem;
 }
+
+.offer {
+  position: relative;
+  border-radius: 15px;
+  z-index: 99999;
+  font-family: "Noto Serif", serif;
+  height: 208px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  background-color: #00000058;
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: -222222;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.subscription {
+  font-family: "Noto Serif", serif;
+  position: relative;
+  z-index: 99999;
+  border-radius: none;
+}

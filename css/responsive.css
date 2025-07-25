@@ -76,4 +76,15 @@
         display: none;
     }
 
+    /* Deal Section */
+
+    /* Subscription */
+    .subscription-title {
+        font-size: 24px;
+    }
+
+    .subscription {
+        padding: 100px 0;
+    }
+
 }
