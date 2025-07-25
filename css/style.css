@@ -50,3 +50,7 @@ body {
   z-index: 99999;
   border-radius: none;
 }
+
+.footer-menu li {
+  margin-bottom: 20px;
+}

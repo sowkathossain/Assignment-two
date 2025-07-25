@@ -87,4 +87,23 @@
         padding: 100px 0;
     }
 
+    /* footer */
+    .footer {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer-item {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .footer-menu {
+        margin-left: 0;
+        pa
+    }
+
+    .social-icons {
+        justify-content: start;
+    }
 }
