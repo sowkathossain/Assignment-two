@@ -1,0 +1,55 @@
+@media (max-width: 576px) {
+    body {
+        font-size: .8rem;
+    }
+
+    .header {
+        margin-bottom: 80px;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation li:last-child {
+        display: block;
+    }
+
+    .hero {
+        margin-top: 30px;
+        ;
+        flex-direction: column-reverse;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .section-content {
+        width: 70%;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        line-height: normal;
+        margin-top: 20px;
+    }
+
+    h1.section-title {
+        width: 50%;
+    }
+
+    .product-carts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-carts {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
